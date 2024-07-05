@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://preview.redd.it/gue71x5s68091.jpg?auto=webp&s=d38fcadffb53c5451d4289d7bb95b20840ab882c");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.longin-container{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+.longin-container input h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #007bff;
+}
+.longin-container input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+}
+.longin-container button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.longin-container button:hover { 
+    background-color: #0056b3;
+}
+@media (max-width: 480px) {
+    .longin-container{
+        width: 80%;
+    }
+}

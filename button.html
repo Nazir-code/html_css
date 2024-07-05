@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body> 
+    <button><a href="https://google.com" target="_blank">help</a></button>
+    <button><a href="+1 317 709 0664" target="_blank">contact us</a></button>
+    <button><a href="https://google.com" target="_blank">see more</a></button>
+    <button><a href="mailto:test@fake.com" target="_blank">email us</a></button>
+    <form action="index.html" method="post">
+        <label for="username">username:</label>
+        <input type="text" id="username" min="6" max="15" placeholder="SpongeBob" required><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" min="6" max="15" placeholder="password" required><br>
+
+        <label for="email"> email:</label>
+        <input type="email" name="email" id="email" placeholder="zabeirounazir@gmail.com"><br>
+
+        <label for="phone">phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+227 00-00-00-00"><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday"><br>
+
+        <label for="quantity">quantity:</label><br>
+        <input type="number" id="quantity" value="1" min="1" max="99"><br>
+
+        <label for="Title">title:</label>
+        <label for="Mr">Mr.</label>
+        <input type="radio" name="title" value="Mr" id="Mr">
+        <label for="Mrs">Mrs.</label>
+        <input type="radio" name="title" value="Mrs" id="Mrs">
+        <label for="Phd">Phd.</label>
+        <input type="radio" value="Phd" name="title" id="Phd"><br>
+
+        <label for="payment">payment:</label>
+        <select name="payment" id="payment">
+            <option value="BIA">BIA</option>
+            <option value="SONIBANK">SONIBANK</option>
+            <option value="VISA">VISA</option>
+        </select><br>
+
+        <label for="Subscribe">Subscribe:</label>
+        <input type="checkbox"><br>
+
+        <label for="comment">comment:</label>
+        <textarea name="comment" id="comment" rows="10" cols="25"></textarea>
+    <br>
+    <a href="mailto:test@fake.com">
+    <button>send us a email</button>
+</a><br>
+        
+        <input type="reset">
+    
+        <input type="submit"></a>
+    </form>
+</body>
+</html>
